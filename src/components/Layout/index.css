@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.menu {
+  flex: 0 0 200px; /* Set the width of the menu */
+  display: flex;
+  flex-direction: column; /* Arrange the links vertically */
+  text-align: center;
+}
+
+.content {
+  flex: 1; /* Allow the content to take up remaining space */
+  text-align: center;
+}
